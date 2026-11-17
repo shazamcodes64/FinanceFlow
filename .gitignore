@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+.AppleDouble
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# PyInstaller
+*.spec
+
+# Logs
+*.log
+run.log
+
+# Database (user data — not committed)
+database/*.db
+
+# Agents / workflow internals
+.agents/
+
+# Pasted screenshots at root (moved to text/ folder)
+"Pasted *.png"
